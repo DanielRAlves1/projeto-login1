@@ -130,5 +130,7 @@ div#formulariologin {
 
     span#icone2 {
         font-size: 1.2em;
+        font-weight: bolder;
+        transform: translate(4px, 4px);
     }
 }
