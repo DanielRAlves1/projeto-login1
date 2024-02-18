@@ -24,25 +24,29 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
 
     width: 250px;
     height: 400px;
     background-color: aqua;
-    border-radius: 10px ;
+    border-radius: 20px ;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    transition: width .1s, height .1s;
+    transition-timing-function: ease;
 }
 
 
 div#fotologin {
+    display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 250px;
     height: 200px;
-    border-radius: 10px 10px 0px 0px;
 }
 
 div#formulariologin {
+    display: block;
     
     & h1 {
         text-align: center;
@@ -52,18 +56,12 @@ div#formulariologin {
     & p {
         text-align: justify;
         padding: 5px;
+        font-size: .8em;
+        margin-bottom: 7px;
     }
 
     & label {
         padding: 10px;
 
-    }
-
-    input#botoes {
-        width: 150px;
-        margin: auto;
-        margin-left: 55px;
-        border-radius: 1px;
-        border-color: rgb(255, 255, 255);
     }
 }
