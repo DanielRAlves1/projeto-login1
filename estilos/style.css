@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(violet, darkviolet);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+main {
+
+}
+
+section {
+    width: 400px;
+    background-color: aqua;
+}
+
+
+div#fotologin > picture > img {
+    width: 200px;
+    height: 200px;
+}
